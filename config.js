@@ -8,7 +8,7 @@ const CONFIG = {
     NOM:            "AlterWeb Studio",
     EMAIL:          "info@alterwebstudio.com",
     WHATSAPP:       "https://wa.me/34711510676",    WHATSAPPLBL: "💬 Escríu-me per WhatsApp",
-    INSTAGRAM:     "https://www.instagram.com/alterwebstudio",
+    INSTAGRAM:      "https://www.instagram.com/alterwebstudio",
 
 
     // 2. RUTES

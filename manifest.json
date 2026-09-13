@@ -1,0 +1,17 @@
+{
+    "name": "AlterWeb Studio",
+    "short_name": "AlterWeb Studio",
+    "description": "Inici",
+    "start_url": "index.html",
+    "display": "standalone",
+    "background_color": "#FFFFFF",
+    "theme_color": "#0d1f7a",
+    "orientation": "any",
+    "icons": [
+        {
+            "src": "https://avsets.pages.dev/logo/logoAWStrans.png",
+            "sizes": "any",
+            "type": "image/png"
+        }
+    ]
+}

@@ -41,15 +41,19 @@
     --accent:      #C07B13;
 }
 
-html { scroll-behavior: smooth; }
+
 html {
-  scroll-padding-top: 40px; /* Ajusta segons necessitis */
+    scroll-behavior: smooth;
+    scroll-padding-top: 40px; /* Ajusta segons necessitis */
+   
 }
 
 body {
     font-family: 'Segoe UI', Roboto, sans-serif;
     color: var(--text-fosc);
     background: var(--fons-blanc);
+        background-color: transparent;
+
 }
 
 a { text-decoration: none; color: inherit; }

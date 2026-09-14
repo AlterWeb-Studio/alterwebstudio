@@ -120,6 +120,18 @@ const CONFIG = {
             banner:      "EN CONSTRUCCIÓ",                                          /*xxxxxxxxxxxxxxxx */
             bannerSub:   "Nou projecte en marxa..",                                     /*xxxxxxxxxxxxxxxx */
         },
+                {
+            id:          "disponible",
+            titol:       "Aquí hi va el teu Negoci",
+            subtitol:    "Disponible",
+            desc:        "No esperis més. Demana informació.",
+            fons:        "#FFFFFF",
+            logo:        "https://avsets.pages.dev/logo/PortfolioAWS.png",
+            titolClasse: "",
+            link:        "https://avsets.pages.dev/logo/PortfolioAWS.png",
+            banner:      "DISPONIBLE",                                          /*xxxxxxxxxxxxxxxx */
+            bannerSub:   "Serà la teva web..?",                                     /*xxxxxxxxxxxxxxxx */
+        },
     ],
 
     // 2.7 SECCIÓ PLANTILLES

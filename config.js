@@ -105,6 +105,8 @@ const CONFIG = {
             logo:        "https://avsets.pages.dev/logo/PortfolioOA.png",
             titolClasse: "",
             link:        "https://recycled.alterwebstudio.com/",
+            banner:      "LOW COST",                                          /*xxxxxxxxxxxxxxxx */
+            bannerSub:   " Base ja feta- Adopta-la",                                     /*xxxxxxxxxxxxxxxx */
         },
 
     ],

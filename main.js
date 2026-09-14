@@ -78,6 +78,11 @@
             // ─── Portfolio ───────────────────────────────────────
             const portfoliCards = CONFIG.PROJECTES.map(p => `
                 <a href="${p.link}" target="_blank" class="portfolio-card">
+                    ${p.banner ? `
+                    <div class="portfolio-card-banner">
+                        <span class="banner-linia1">${p.banner}</span>
+                        ${p.bannerSub ? `<span class="banner-linia2">${p.bannerSub}</span>` : ''}
+                    </div>` : ''}
                     <div class="portfolio-card-imatge" style="background: ${p.fons};">
                         <img src="${p.logo}" alt="${p.titol}">
                     </div>

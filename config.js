@@ -87,16 +87,6 @@ const CONFIG = {
             link:        "https://agora.alterwebstudio.com/",
         },
         {
-            id:          "oleyaji",
-            titol:       "El teu Nom | Gastronomia",
-            subtitol:    "Restauració",
-            desc:        "Web de restaurant amb galeria de plats, fotos i descripcions. Gestió de contingut amb imatges.",
-            fons:        "#FFFFFF",
-            logo:        "https://avsets.pages.dev/logo/PortfolioOA.png",
-            titolClasse: "",
-            link:        "https://recycled.alterwebstudio.com/",
-        },
-        {
             id:          "cadialimentacio",
             titol:       "Carles | Cadí Alimentació",
             subtitol:    "Distribució de congelats",
@@ -106,6 +96,17 @@ const CONFIG = {
             titolClasse: "font-agora",
             link:        "https://carlescadi.alterwebstudio.com/",
         },
+        {
+            id:          "oleyaji",
+            titol:       "El teu Nom | Gastronomia",
+            subtitol:    "Restauració",
+            desc:        "Web de restaurant amb galeria de plats, fotos i descripcions. Gestió de contingut amb imatges.",
+            fons:        "#FFFFFF",
+            logo:        "https://avsets.pages.dev/logo/PortfolioOA.png",
+            titolClasse: "",
+            link:        "https://recycled.alterwebstudio.com/",
+        },
+
     ],
 
     // 2.7 SECCIÓ PLANTILLES

@@ -411,7 +411,7 @@ a:hover { text-decoration: none; }
     background: linear-gradient(135deg, var(--cian), var(--blau));
     color: #ffffff;
     padding: 16px 44px;
-    border-radius: 4px;
+    border-radius: 10px;
     font-size: 14px;
     font-weight: 600;
     letter-spacing: 2px;

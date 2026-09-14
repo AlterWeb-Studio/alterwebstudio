@@ -108,7 +108,18 @@ const CONFIG = {
             banner:      "LOW COST",                                          /*xxxxxxxxxxxxxxxx */
             bannerSub:   " Base ja feta - Adopta-la",                                     /*xxxxxxxxxxxxxxxx */
         },
-
+        {
+            id:          "canbelles",
+            titol:       "Can Bellès | Restaurant",
+            subtitol:    "Restauració",
+            desc:        "Web de restaurant amb Carta digital dinàmica amb Menús, Carta i Vins. ",
+            fons:        "#FFFFFF",
+            logo:        "https://avsets.pages.dev/logo/PortfolioCB.png",
+            titolClasse: "",
+            link:        "https://alterweb-studio.github.io/canbelles/",
+            banner:      "EN CONSTRUCCIÓ",                                          /*xxxxxxxxxxxxxxxx */
+            bannerSub:   "Nou projecte en marxa..",                                     /*xxxxxxxxxxxxxxxx */
+        },
     ],
 
     // 2.7 SECCIÓ PLANTILLES

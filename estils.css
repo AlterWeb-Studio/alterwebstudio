@@ -371,7 +371,7 @@ a:hover { text-decoration: none; }
     width: 170px;
     transform: rotate(45deg);
     background: linear-gradient(135deg, var(--rosa), var(--red));
-   color: #ffffff;
+    color: #ffffff;
     text-align: center;
     padding: 5px 0;
     z-index: 5;

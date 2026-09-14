@@ -106,7 +106,7 @@ const CONFIG = {
             titolClasse: "",
             link:        "https://recycled.alterwebstudio.com/",
             banner:      "LOW COST",                                          /*xxxxxxxxxxxxxxxx */
-            bannerSub:   " Base ja feta- Adopta-la",                                     /*xxxxxxxxxxxxxxxx */
+            bannerSub:   " Base ja feta - Adopta-la",                                     /*xxxxxxxxxxxxxxxx */
         },
 
     ],

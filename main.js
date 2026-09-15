@@ -33,7 +33,7 @@
 
         /* ════════════════════════════════════════════════════════
            BLOC 2 — MARQUEE
-           Es repeteix l'array 4 cops (regla T=2P que ja coneixEMAIL_ICO:
+           Es repeteix l'array 4 cops (regla T=2P que ja coneixem
            contingut total ha de doblar l'amplada visible perquè
            el translateX(-50%) faci el bucle sense salts).
            ════════════════════════════════════════════════════════ */

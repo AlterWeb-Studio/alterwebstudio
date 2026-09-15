@@ -5,35 +5,56 @@
 const CONFIG = {
 
     // 1. NEGOCI
-    COOK:           "",
+    COOK:           "cookies_alterweb",
     NOM:            "AlterWeb Studio",
     LOGO:           "logo/logoAWStrans.png",
-    EMAIL:          "info@alterwebstudio.com",
+    LOGO_T:         "logo/logoAWStrans.png",
+    SLOGAN:         "",
+    TELEFON:        "",            TELEFON_LABEL:   "Telèfon",     TELEFON_ICO: "📞",
+    MOBIL:          "711510676",
     WHATSAPP:       "https://wa.me/34711510676",    WHATSAPPLABEL: "💬 Escríu-me per WhatsApp",
+    EMAIL:          "info@alterwebstudio.com",   EMAIL_LABEL:     "e-Mail",       EMAIL_ICO: "✉️",
+    ADRECA:         "C/Faraday, 145  08224  Terrassa",
+       ADRECA_LABEL: "Adreça",
+       ADRECA_ICO: "📍",
     INSTAGRAM:      "https://www.instagram.com/alterwebstudio",
-
+    FACEBOOK:       "",
+    EMAIL_SUPORT:   "info@alterwebstudio.com",
+    //-------------------------------------------------------------------------------------------------------------------------
 
     // 2. RUTES
+    REPO_URL:       "https://alterweb-studio.github.io/alterwebstudio/",
     BASE_URL:       "./",
+    BASE_WORKER:    "",
+    URL_OFICIAL:    "https://www.alterwebstudio.com",
     ASSETS:         "https://avsets.pages.dev/",
-    URL_OFICIAL:    "https://alterwebstudio.com/",
+    URL_MAPS:       "",
+    URL_RESSENYES:  "",
 
-    // 2.2 IMATGES
+    // 3. IMATGES 
+    BACKGROUND:      "", // ← canviar en el css .html{}
+    BLOC_HERO:       "", 
+    QR:              "",
+    //-------------------------------------------------------------------------------------------------------------------------
 
-    // 2.2.2   NAV
+    // 4. TEXTOS---------------------------------------------------------------------------------------------------------------
     NAV_INI:        "Inici",
     NAV_QUE:        "Qui som..",
     NAV_PORT:        "Destacats",
     NAV_CON:        "Contacte",
 
 
-    // 2.3 HERO
+
+                     //
+   
     HERO_EYEBROW:   "Solucions Digitals Dinàmiques",
     HERO_TITOL:     "El teu negoci,<br>visible i al dia",
     HERO_BOTO:      "Veure projectes",
 
     // 2.4 MARQUEE
     MARQUEE_ITEMS: ["Disseny web", "Desenvolupament", "Panells d'administració", "SEO", "Manteniment"],
+   
+   
     // 2.5 SECCIÓ "QUÈ ÉS"
     QUE_TITOL_PRE:    "Què és",
     QUE_TITOL_ACCENT: "AlterWeb Studio",

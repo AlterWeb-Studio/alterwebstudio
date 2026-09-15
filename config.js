@@ -5,7 +5,9 @@
 const CONFIG = {
 
     // 1. NEGOCI
+    COOK:           "",
     NOM:            "AlterWeb Studio",
+    LOGO:           "logo/logoAWStrans.png",
     EMAIL:          "info@alterwebstudio.com",
     WHATSAPP:       "https://wa.me/34711510676",    WHATSAPPLBL: "💬 Escríu-me per WhatsApp",
     INSTAGRAM:      "https://www.instagram.com/alterwebstudio",
@@ -17,7 +19,6 @@ const CONFIG = {
     URL_OFICIAL:    "https://alterwebstudio.com/",
 
     // 2.2 IMATGES
-    LOGO:           "logo/logoAWStrans.png",
 
     // 2.2.2   NAV
     NAV_INI:        "Inici",

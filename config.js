@@ -9,7 +9,7 @@ const CONFIG = {
     NOM:            "AlterWeb Studio",
     LOGO:           "logo/logoAWStrans.png",
     EMAIL:          "info@alterwebstudio.com",
-    WHATSAPP:       "https://wa.me/34711510676",    WHATSAPPLBL: "💬 Escríu-me per WhatsApp",
+    WHATSAPP:       "https://wa.me/34711510676",    WHATSAPPLABEL: "💬 Escríu-me per WhatsApp",
     INSTAGRAM:      "https://www.instagram.com/alterwebstudio",
 
 

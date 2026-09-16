@@ -81,7 +81,7 @@ const CONFIG = {
         {
             id:          "amrmotorbike",
             titol:       "AMR MotorBike",
-            subtitol:    "Mecanic motos",
+            subtitol:    "Taller Mecanic motos",
             desc:        "Web estàtica per especialistes en manteniment, reparació i restauració de motocicletes.",
             fons:        "#FFFFFF",
             logo:        "https://avsets.pages.dev/logo/logo-nouAMR.png",

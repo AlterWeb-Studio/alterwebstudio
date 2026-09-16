@@ -358,7 +358,7 @@ a:hover { text-decoration: none; }
 .portfolio-card-text .portfolio-card-testimoni {
     font-style: italic;
     font-size: 0.8rem;
-    color: var(--cian);
+    color: var(--accent);
     margin-top: 6px;
 }
 
@@ -368,7 +368,7 @@ a:hover { text-decoration: none; }
     font-size: 11px;
     letter-spacing: 1px;
     text-transform: uppercase;
-    color: var(--cian);
+    color: var(--text-suau);
     border: 1px solid var(--cian);
     padding: 3px 10px;
     border-radius: 3px;

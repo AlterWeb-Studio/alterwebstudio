@@ -17,6 +17,10 @@ const CONFIG = {
     ADRECA:         "C/Faraday, 145  08224  Terrassa",
        ADRECA_LABEL: "Adreça",
        ADRECA_ICO: "📍",
+    HORA_0:         "Horari",   HR: "🕐",
+    HORA_1:         "",
+    HORA_2:         "",
+    HORA_3:         "",
     INSTAGRAM:      "https://www.instagram.com/alterwebstudio",
     FACEBOOK:       "",
     EMAIL_SUPORT:   "info@alterwebstudio.com",
@@ -38,18 +42,23 @@ const CONFIG = {
     //-------------------------------------------------------------------------------------------------------------------------
 
     // 4. TEXTOS---------------------------------------------------------------------------------------------------------------
-    NAV_INI:        "Inici",
-    NAV_QUE:        "Qui som..",
-    NAV_PORT:        "Destacats",
-    NAV_CON:        "Contacte",
-
+    NAV_INICI:          "Inici",
+    NAV_NOSALTRES:      "Qui som..",
+    NAV_SERVEIS:        "Destacats",
+    NAV_PXQ:            "?",
+    NAV_CONTACTE:       "Contacte",
 
 
                      //
    
-    HERO_EYEBROW:   "Solucions Digitals Dinàmiques",
-    HERO_TITOL:     "El teu negoci,<br>visible i al dia",
-    HERO_BOTO:      "Veure projectes",
+    HERO_EYEBROW:       "Solucions Digitals Dinàmiques",
+    HERO_TITOL:         "El teu negoci,<br>visible i al dia",
+    HERO_BOTO:          "Veure projectes",
+
+
+
+    //-------------------------------------------------------------------------------------------------------------------------
+
 
     // 2.4 MARQUEE
     MARQUEE_ITEMS: ["Disseny web", "Desenvolupament", "Panells d'administració", "SEO", "Manteniment"],

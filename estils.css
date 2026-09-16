@@ -362,6 +362,10 @@ a:hover { text-decoration: none; }
     color: var(--red);
     margin-top: 6px;
 }
+.portfolio-card-text .portfolio-card-testimoniestrellas {
+    font-size: 0.6rem;
+    margin-top: 10px;
+}
 
 .portfolio-card-tag {
     display: inline-block;

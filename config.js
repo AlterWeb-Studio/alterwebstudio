@@ -86,7 +86,7 @@ const CONFIG = {
             fons:        "#FFFFFF",
             logo:        "https://avsets.pages.dev/logo/logo-nouAMR.png",
             titolClasse: "font-amr",
-            //testimoni:   "«...» — Adri i Manel, AMR MotorBike",
+            //testimoni:   "⭐⭐⭐⭐⭐<br>«...» — Adri i Manel, AMR MotorBike",
             link:        "https://www.amrmotorbike.com/",
         },
         {
@@ -97,9 +97,9 @@ const CONFIG = {
             fons:        "#FFFFFF",
             logo:        "https://avsets.pages.dev/logo/PortfolioGE.png",
             titolClasse: "",
-            testimoni:   "«Gracias por ponerle tantas ganas y profesionalidad a nuestro proyecto. Gracias por hacérnoslo tan fácil!» — Esther, Gruas Esmar",
+            testimoni:   "⭐⭐⭐⭐⭐<br>«Gracias por ponerle tantas ganas y profesionalidad a nuestro proyecto. Gracias por hacérnoslo tan fácil!» — Esther, Gruas Esmar",
             link:        "https://www.gruasesmar.com/",
-        },
+        },//
         {
             id:          "agora",
             titol:       "àgora | Restaurant",
@@ -108,7 +108,7 @@ const CONFIG = {
             fons:        "#FFFFFF",
             logo:        "https://avsets.pages.dev/logo/PortfolioAG.png",
             titolClasse: "font-agora",
-            //testimoni:   "«...» — Toni i César, àgora",
+            //testimoni:   "⭐⭐⭐⭐⭐<br>«Pepito grillo» — Toni i César, àgora",
             link:        "https://agora.alterwebstudio.com/",
         },
         {

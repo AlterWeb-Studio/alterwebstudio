@@ -31,7 +31,8 @@
     --border:      rgba(0, 150, 255, 0.15);
     --red:         #FF0000;
      --rosa:         #FF855F;
-     --font-agora:  ;
+      --cap:         #FF6105;
+    --font-agora:  ;
 
     --fonsmarquee: #1D275D;
     --line:        #8F692C;
@@ -358,7 +359,7 @@ a:hover { text-decoration: none; }
 .portfolio-card-text .portfolio-card-testimoni {
     font-style: italic;
     font-size: 0.8rem;
-    color: var(--accent);
+    color: var(--red);
     margin-top: 6px;
 }
 

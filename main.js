@@ -89,6 +89,7 @@
                     <div class="portfolio-card-text">
                         <h3 class="${p.titolClasse}">${p.titol}</h3>
                         <p>${p.desc}</p>
+                        ${p.testimoni ? `<p class="portfolio-card-testimoni">${p.testimoni}</p>` : ''}
                         <span class="portfolio-card-tag">${p.subtitol}</span>
                     </div>
                 </a>

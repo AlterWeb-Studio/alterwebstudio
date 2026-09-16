@@ -29,7 +29,7 @@ const CONFIG = {
     URL_OFICIAL:    "https://www.alterwebstudio.com",
     ASSETS:         "https://avsets.pages.dev/",
     URL_MAPS:       "",
-    URL_RESSENYES:  "",
+    URL_RESSENYES:  "https://g.page/r/Cawh-z-rLNAYEBM/review",
 
     // 3. IMATGES 
     BACKGROUND:      "", // ← canviar en el css .html{}
@@ -86,6 +86,7 @@ const CONFIG = {
             fons:        "#FFFFFF",
             logo:        "https://avsets.pages.dev/logo/logo-nouAMR.png",
             titolClasse: "font-amr",
+            //testimoni:   "«...» — [Nom], AMR MotorBike",
             link:        "https://www.amrmotorbike.com/",
         },
         {
@@ -96,6 +97,7 @@ const CONFIG = {
             fons:        "#FFFFFF",
             logo:        "https://avsets.pages.dev/logo/PortfolioGE.png",
             titolClasse: "",
+            testimoni:   "«Gracias por ponerle tantas ganas y profesionalidad a nuestro proyecto. Gracias por hacérnoslo tan fácil!» — Esther, Gruas Esmar",
             link:        "https://www.gruasesmar.com/",
         },
         {
@@ -106,6 +108,7 @@ const CONFIG = {
             fons:        "#FFFFFF",
             logo:        "https://avsets.pages.dev/logo/PortfolioAG.png",
             titolClasse: "font-agora",
+            //testimoni:   "«...» — [Nom], AMR MotorBike",
             link:        "https://agora.alterwebstudio.com/",
         },
         {

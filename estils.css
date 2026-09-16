@@ -355,6 +355,12 @@ a:hover { text-decoration: none; }
     color: var(--text-suau);
     line-height: 1.6;
 }
+.portfolio-card-text .portfolio-card-testimoni {
+    font-style: italic;
+    font-size: 0.8rem;
+    color: var(--cian);
+    margin-top: 6px;
+}
 
 .portfolio-card-tag {
     display: inline-block;

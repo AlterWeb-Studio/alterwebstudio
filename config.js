@@ -86,7 +86,7 @@ const CONFIG = {
             fons:        "#FFFFFF",
             logo:        "https://avsets.pages.dev/logo/logo-nouAMR.png",
             titolClasse: "font-amr",
-            //testimoni:   "«...» — [Nom], AMR MotorBike",
+            //testimoni:   "«...» — Adri i Manel, AMR MotorBike",
             link:        "https://www.amrmotorbike.com/",
         },
         {
@@ -108,7 +108,7 @@ const CONFIG = {
             fons:        "#FFFFFF",
             logo:        "https://avsets.pages.dev/logo/PortfolioAG.png",
             titolClasse: "font-agora",
-            //testimoni:   "«...» — [Nom], AMR MotorBike",
+            //testimoni:   "«...» — Toni i César, àgora",
             link:        "https://agora.alterwebstudio.com/",
         },
         {
@@ -119,6 +119,7 @@ const CONFIG = {
             fons:        "#FFFFFF",
             logo:        "https://avsets.pages.dev/logo/PortfolioCCA.png",
             titolClasse: "font-agora",
+            //testimoni:   "«...» — Carles, Cadí Alimentació",
             link:        "https://carlescadi.alterwebstudio.com/",
         },
         {

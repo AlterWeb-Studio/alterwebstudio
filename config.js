@@ -108,7 +108,7 @@ const CONFIG = {
             fons:        "#FFFFFF",
             logo:        "https://avsets.pages.dev/logo/PortfolioAG.png",
             titolClasse: "font-agora",
-            testimoni:   "«Pepito grillo» — Toni i César, àgora",
+            //testimoni:   "«» — Toni i César, àgora",
             link:        "https://agora.alterwebstudio.com/",
         },
         {

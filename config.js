@@ -67,8 +67,7 @@ const CONFIG = {
     // 2.5 SECCIÓ "QUÈ ÉS"
     QUE_TITOL_PRE:    "Què és",
     QUE_TITOL_ACCENT: "AlterWeb Studio",
-    QUE_SUBTITOL:     "Creem webs professionals per a petits negocis i autònoms que volen ser presents a internet sense complicacions. Ràpides, clares i gestionables de forma autònoma.",
-
+    QUE_SUBTITOL:     "Webs professionals per a petits negocis i autònoms que volen tenir presència a internet sense complicacions: ràpides, clares i preparades perquè el teu negoci hi pugui créixer sense haver de refer-ho tot cada vegada.",
      QUE_ITEMS: [
         { icona: "🌐", titol: "Presència digital",  desc: "Una web pròpia que et representa a internet, sense dependre només de les xarxes socials." },
         { icona: "📋", titol: "Contingut dinàmic",  desc: "Cartes, catàlegs, serveis o productes. El contingut s'actualitza en temps real, sense coneixements tècnics." },
@@ -108,7 +107,7 @@ const CONFIG = {
             titolClasse: "",
             testimoni:   "«Gracias por ponerle tantas ganas y profesionalidad a nuestro proyecto. Gracias por hacérnoslo tan fácil!» — Esther, Gruas Esmar",
             link:        "https://www.gruasesmar.com/",
-        },//
+        },
         {
             id:          "agora",
             titol:       "àgora | Restaurant",

@@ -95,7 +95,7 @@ const CONFIG = {
             fons:        "#FFFFFF",
             logo:        "https://avsets.pages.dev/logo/logo-nouAMR.png",
             titolClasse: "font-amr",
-            //testimoni:   "«...» — Adri i Manel, AMR MotorBike",
+            testimoni:   "«Gran profesionalidad en el trato y en el resultado: moderno, innovador y justo lo que necesitábamos, con soporte constante. Repetiríamos sin dudarlo.» — Adri i Manel, AMR MotorBike",
             link:        "https://www.amrmotorbike.com/",
         },
         {

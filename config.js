@@ -116,7 +116,7 @@ const CONFIG = {
             fons:        "#FFFFFF",
             logo:        "https://avsets.pages.dev/logo/PortfolioAG.png",
             titolClasse: "font-agora",
-            //testimoni:   "«» — Toni i César, àgora",
+            testimoni:   "«No puedo estar más satisfecho con el trabajo realizado. El trato personal ha sido excelente y el resultado de la página web ha superado todas mis expectativas.» — Toni i César, àgora",
             link:        "https://agora.alterwebstudio.com/",
         },
         {

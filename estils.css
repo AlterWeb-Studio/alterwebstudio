@@ -323,7 +323,7 @@ a:hover { text-decoration: none; }
 }
 
 .portfolio-card:hover {
-    transform: translateY(-4px);
+    transform: translate(4px, -4px);    /*X/Y*/
     box-shadow: 0 12px 40px rgba(0, 80, 255, 0.12);
 }
 
@@ -342,7 +342,7 @@ a:hover { text-decoration: none; }
     height: auto;
 }
 
-.portfolio-card-text { padding: 20px 22px; }
+.portfolio-card-text { padding: 5px 22px; }
 
 .portfolio-card-text h3 {
     font-size: 1.05rem;

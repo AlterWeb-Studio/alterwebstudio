@@ -77,7 +77,8 @@
 
             // ─── Portfolio ───────────────────────────────────────
             const portfoliCards = CONFIG.PROJECTES.map(p => `
-                <a href="${p.link}" target="_blank" class="portfolio-card">
+            <div>
+                <a href="${p.link}" target="_blank" class="portfolio-card" >
                     ${p.banner ? `
                     <div class="portfolio-card-banner">
                         <span class="banner-linia1">${p.banner}</span>
@@ -89,10 +90,19 @@
                     <div class="portfolio-card-text">
                         <h3 class="${p.titolClasse}">${p.titol}</h3>
                         <p>${p.desc}</p>
-                        ${p.testimoni ? `<p class="portfolio-card-testimoniestrellas">⭐⭐⭐⭐⭐<br></p><p class="portfolio-card-testimoni">${p.testimoni}</p>` : ''}
                         <span class="portfolio-card-tag">${p.subtitol}</span>
                     </div>
                 </a>
+                                    
+                <div class="portfolio-card portfolio-card-text">
+                    <a href="${CONFIG.URL_RESSENYES}" target="_blank" >
+
+                    ${p.testimoni ? `<p class="portfolio-card-testimoniestrellas">⭐⭐⭐⭐⭐<br></p><p class="portfolio-card-testimoni">${p.testimoni}</p>` : ''}
+
+                    </a>
+                </div>
+            </div>
+
             `).join('');
 
             // ─── Plantilles ──────────────────────────────────────

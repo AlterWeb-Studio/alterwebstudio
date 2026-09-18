@@ -1,1 +1,92 @@
 
+<!--
+
+
+                <a href="${p.link}" target="_blank" class="portfolio-card">
+                    ${p.banner ? `
+                    <div class="portfolio-card-banner">
+                        <span class="banner-linia1">${p.banner}</span>
+                        ${p.bannerSub ? `<span class="banner-linia2">${p.bannerSub}</span>` : ''}
+                    </div>` : ''}
+                    <div class="portfolio-card-imatge" style="background: ${p.fons};">
+                        <img src="${p.logo}" alt="${p.titol}">
+                    </div>
+                    <div class="portfolio-card-text">
+                        <h3 class="${p.titolClasse}">${p.titol}</h3>
+                        <p>${p.desc}</p>
+                        ${p.testimoni ? `<p class="portfolio-card-testimoniestrellas">⭐⭐⭐⭐⭐<br></p><p class="portfolio-card-testimoni">${p.testimoni}</p>` : ''}
+                        <span class="portfolio-card-tag">${p.subtitol}</span>
+                    </div>
+                </a>
+
+
+
+<div class="portfolio-card">
+                <a href="${p.link}" target="_blank" >
+                    ${p.banner ? `
+                    <div class="portfolio-card-banner">
+                        <span class="banner-linia1">${p.banner}</span>
+                        ${p.bannerSub ? `<span class="banner-linia2">${p.bannerSub}</span>` : ''}
+                    </div>` : ''}
+                    <div class="portfolio-card-imatge" style="background: ${p.fons};">
+                        <img src="${p.logo}" alt="${p.titol}">
+                    </div>
+                    <div class="portfolio-card-text">
+                        <h3 class="${p.titolClasse}">${p.titol}</h3>
+                        <p>${p.desc}</p>
+                        <span class="portfolio-card-tag">${p.subtitol}</span>
+                    </div>
+                </a>
+                <a href="${CONFIG.URL_RESSENYES}" target="_blank" >
+
+                ${p.testimoni ? `<p class="portfolio-card-testimoniestrellas">⭐⭐⭐⭐⭐<br></p><p class="portfolio-card-testimoni">${p.testimoni}</p>` : ''}
+
+                </a>
+</div>
+
+
+
+
+Ja ho rumiaré tot aixo....  Tinc moltes coses al cap i idees per a nous projectes, i a carles cadi, la vull convertir en una tarja de visita.  Però bueno.. on erem, als testimonis.  Ja tinc les tres cards amb estrelles i resenyes, i he tingut una altre idea. Fer que el link de la card funcioni amb normalitat, però el text del client, sigui un link a les resenyes reals. Una manera real per a que un visitant ho verifiqui de veritat. Com no estaves, he intentat explicarli a en Gemini, pero sembla una mica curt de gambals, i no s,entera de res, no enten res. Així que al final he començat a remenar per el meu compte... prova aqui prova alla treu, posa, etc... i he aconseguit fer e que volia, i a més a més queda molt xulo.     Mira...             <div>
+                <a href="${p.link}" target="_blank" class="portfolio-card" >
+                    ${p.banner ? `
+                    <div class="portfolio-card-banner">
+                        <span class="banner-linia1">${p.banner}</span>
+                        ${p.bannerSub ? `<span class="banner-linia2">${p.bannerSub}</span>` : ''}
+                    </div>` : ''}
+                    <div class="portfolio-card-imatge" style="background: ${p.fons};">
+                        <img src="${p.logo}" alt="${p.titol}">
+                    </div>
+                    <div class="portfolio-card-text">
+                        <h3 class="${p.titolClasse}">${p.titol}</h3>
+                        <p>${p.desc}</p>
+                        <span class="portfolio-card-tag">${p.subtitol}</span>
+                    </div>
+                </a>
+                                    
+                <div class="portfolio-card portfolio-card-text">
+                    <a href="${CONFIG.URL_RESSENYES}" target="_blank" >
+
+                    ${p.testimoni ? `<p class="portfolio-card-testimoniestrellas">⭐⭐⭐⭐⭐<br></p><p class="portfolio-card-testimoni">${p.testimoni}</p>` : ''}
+
+                    </a>
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-->

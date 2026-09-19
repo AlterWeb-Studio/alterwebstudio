@@ -34,6 +34,7 @@ const CONFIG = {
     ASSETS:         "https://avsets.pages.dev/",
     URL_MAPS:       "",
     URL_RESSENYES:  "https://g.page/r/Cawh-z-rLNAYEBM/review",
+    URL_VIEW_RESSENYES:  "https://www.google.com/maps/place//data=!4m4!3m3!1s0x12a493f889745b25:0x18d02cab3ffb21ac!9m1!1b1",
 
     // 3. IMATGES 
     BACKGROUND:      "", // ← canviar en el css .html{}

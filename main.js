@@ -93,14 +93,14 @@
                         <span class="portfolio-card-tag">${p.subtitol}</span>
                     </div>
                 </a>
-                                    
+                ${p.testimoni ? `                    
                 <div class="portfolio-card portfolio-card-text">
-                    <a href="${CONFIG.URL_RESSENYES}" target="_blank" >
+                    <a href="${CONFIG.URL_VIEW_RESSENYES}" target="_blank" >
 
-                    ${p.testimoni ? `<p class="portfolio-card-testimoniestrellas">⭐⭐⭐⭐⭐<br></p><p class="portfolio-card-testimoni">${p.testimoni}</p>` : ''}
+                    <p class="portfolio-card-testimoniestrellas">⭐⭐⭐⭐⭐<br></p><p class="portfolio-card-testimoni">${p.testimoni}</p>
 
                     </a>
-                </div>
+                </div>` : ''}
             </div>
 
             `).join('');

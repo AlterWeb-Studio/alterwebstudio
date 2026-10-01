@@ -151,7 +151,7 @@ const CONFIG = {
             fons:        "#FFFFFF",
             logo:        "https://avsets.pages.dev/logo/PortfolioCB.png",
             titolClasse: "",
-            link:        "https://alterweb-studio.github.io/canbelles/",
+            link:        "",                                /*https://alterweb-studio.github.io/canbelles/*/
             banner:      "EN CONSTRUCCIÓ",                                          /*xxxxxxxxxxxxxxxx */
             bannerSub:   "Nou projecte en marxa..",                                     /*xxxxxxxxxxxxxxxx */
         },

@@ -1,122 +1,115 @@
+
 <!DOCTYPE html>
 <html lang="ca">
 
 <head>
+    <!-- ═══ 1. BÀSIC ═══════════════════════════════════════════════ -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <title>AlterWeb Studio | Solucions Digitals Dinàmiques</title>
     <meta name="description" content="Presència digital professional per a negocis. Webs amb contingut dinàmic, gestionables de forma autònoma, optimitzades per a mòbil.">
-
-    <meta name="robots" content="index, follow">
+    <meta name="author" content="AlterWeb Studio">
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
     <link rel="canonical" href="https://alterwebstudio.com/">
+    <!-- <link rel="alternate" hreflang="ca" href="https://alterwebstudio.com/"> -->
 
+    <!-- ═══ 2. ICONES I PWA ════════════════════════════════════════ -->
     <link rel="manifest" href="manifest.json">
     <link rel="icon" type="image/png" href="https://avsets.pages.dev/logo/logoAWS.png">
     <link rel="apple-touch-icon" href="https://avsets.pages.dev/logo/logoAWS.png">
+    <meta name="theme-color" content="#1a3fff">
 
-     <!-- NUEVO: Apple (iPhone/iPad) -->
+    <!-- ═══ 3. APPLE (iPhone/iPad) ═════════════════════════════════ -->
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <meta name="apple-mobile-web-app-title" content="AlterWeb Studio">
     <meta name="format-detection" content="telephone=yes">
-    <meta name="theme-color" content="#1a3fff">
 
-    <!-- NUEVO: carga más rápida del CDN de imágenes -->
+    <!-- ═══ 4. RENDIMENT (CDN d'imatges) ═══════════════════════════ -->
     <link rel="preconnect" href="https://avsets.pages.dev" crossorigin>
     <link rel="dns-prefetch" href="https://avsets.pages.dev">
 
-    <!-- NUEVO: geo para buscadores locales -->
+    <!-- ═══ 5. SEO LOCAL ═══════════════════════════════════════════ -->
     <meta name="geo.region" content="ES-CT">
-    <meta name="geo.placename" content="Sant Quirze del Vallès">
+    <meta name="geo.placename" content="Terrassa">
+    <!-- <meta name="geo.position" content="LAT;LON"> -->
+    <!-- <meta name="ICBM" content="LAT, LON"> -->
 
-   <meta name="google-site-verification" content="mbzpGKd9Gdhqe-aZ5Jq2f_5PF8BqkTsu_wntKqZcF9Q">
+    <!-- ═══ 6. VERIFICACIÓ ═════════════════════════════════════════ -->
+    <meta name="google-site-verification" content="mbzpGKd9Gdhqe-aZ5Jq2f_5PF8BqkTsu_wntKqZcF9Q">
 
+    <!-- ═══ 7. OPEN GRAPH (WhatsApp, Facebook...) ══════════════════ -->
     <meta property="og:title" content="AlterWeb Studio | Solucions Digitals Dinàmiques">
     <meta property="og:description" content="Presència digital professional per a negocis. Webs amb contingut dinàmic, gestionables de forma autònoma, optimitzades per a mòbil.">
     <meta property="og:image" content="https://avsets.pages.dev/logo/logoAWS.png">
-     <!-- NUEVO: tamaño de la imagen al compartir (WhatsApp lo necesita) -->
     <meta property="og:image:width" content="1486">
     <meta property="og:image:height" content="807">
     <meta property="og:image:type" content="image/png">
-   <meta property="og:type" content="website">
+    <meta property="og:image:alt" content="Logo de AlterWeb Studio">
+    <meta property="og:type" content="website">
     <meta property="og:url" content="https://alterwebstudio.com/">
-    <meta property="og:locale" content="es_ES">
-    <!-- NUEVO -->
+    <meta property="og:locale" content="ca_ES">
     <meta property="og:site_name" content="AlterWeb Studio">
 
+    <!-- ═══ 8. TWITTER / X ═════════════════════════════════════════ -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="AlterWeb Studio | Solucions Digitals Dinàmiques">
     <meta name="twitter:description" content="Presència digital professional per a negocis. Webs amb contingut dinàmic, gestionables de forma autònoma, optimitzades per a mòbil.">
     <meta name="twitter:image" content="https://avsets.pages.dev/logo/logoAWS.png">
+    <meta name="twitter:image:alt" content="Logo de AlterWeb Studio">
 
- <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@graph": [
+    <!-- ═══ 9. DADES ESTRUCTURADES (JSON-LD) ═══════════════════════ -->
+    <!-- Pendent: openingHours, geo, hasMap, aggregateRating -->
+    <script type="application/ld+json">
     {
-      "@type": ["ProfessionalService", "LocalBusiness"],
-      "@id": "https://www.alterwebstudio.com/#business",
-      "name": "AlterWeb Studio",
-      "image": "https://avsets.pages.dev/images/altervector/bgAWS.png",
-      "logo": "https://avsets.pages.dev/logo/logoAWStrans.png",
-      "telephone": "+34711510676",
-      "email": "info@alterwebstudio.com",
-      "priceRange": "€€",
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "C/ Faraday, 145",
-        "addressLocality": "Terrassa",
-        "addressRegion": "Barcelona",
-        "postalCode": "08224",
-        "addressCountry": "ES"
-      },
-      "url": "https://www.alterwebstudio.com",
-      "areaServed": ["Terrassa", "Barcelona"],
-      "sameAs": [
-        "https://www.instagram.com/alterwebstudio",
-        "https://g.page/r/Cawh-z-rLNAYEBM/review"
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": ["ProfessionalService", "LocalBusiness"],
+          "@id": "https://www.alterwebstudio.com/#business",
+          "name": "AlterWeb Studio",
+          "image": "https://avsets.pages.dev/images/altervector/bgAWS.png",
+          "logo": "https://avsets.pages.dev/logo/logoAWStrans.png",
+          "telephone": "+34711510676",
+          "email": "info@alterwebstudio.com",
+          "priceRange": "€€",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "C/ Faraday, 145",
+            "addressLocality": "Terrassa",
+            "addressRegion": "Barcelona",
+            "postalCode": "08224",
+            "addressCountry": "ES"
+          },
+          "url": "https://www.alterwebstudio.com",
+          "areaServed": ["Terrassa", "Barcelona"],
+          "sameAs": [
+            "https://www.instagram.com/alterwebstudio",
+            "https://g.page/r/Cawh-z-rLNAYEBM/review"
+          ]
+        },
+        {
+          "@type": "WebSite",
+          "name": "AlterWeb Studio",
+          "url": "https://www.alterwebstudio.com/",
+          "inLanguage": "ca",
+          "publisher": { "@id": "https://www.alterwebstudio.com/#business" }
+        }
       ]
-    },
-    {
-      "@type": "WebSite",
-      "name": "AlterWeb Studio",
-      "url": "https://www.alterwebstudio.com/",
-      "inLanguage": "ca",
-      "publisher": { "@id": "https://www.alterwebstudio.com/#business" }
     }
-  ]
-}
-</script>  
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   <style>
+    </script>
+
+    <!-- ═══ 10. VEL + SCRIPTS ══════════════════════════════════════ -->
+    <style>
         body { opacity: 0; transition: opacity 0.5s ease-in; }
     </style>
-
-    <script src="config.js?v=2.2"></script>
 
     <script>
         window.MODULS = ["navbar-comu.js", "main.js", "footer-comu.js"];
     </script>
-
     <script src="loader.js"></script>
 </head>
+
 
 
 <body>
